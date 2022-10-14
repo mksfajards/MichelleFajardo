@@ -1,0 +1,12 @@
+{
+  "name": "michelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node script.js"
+  },
+  "author": "Michelle Fajardo",
+  "license": "ISC"
+}
