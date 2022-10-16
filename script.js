@@ -71,5 +71,9 @@ $(document).ready(function() {
         }
     });
 
+    function ThankYou() {
+        alert("Message Sent Successfully! Thank you. - Mksfajards");
+    }
+
 
 });

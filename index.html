@@ -223,21 +223,22 @@
                     <form id="contact_me" action="https://formsubmit.co/mksfajards@gmail.com" method="POST">
                         <div class=" fields ">
                             <div class="field name ">
-                                <input name="name" type="text" placeholder="Name">
+                                <input name="name" type="text" placeholder="Name" required>
                             </div>
                             <div class="field email ">
-                                <input name="email" type="text" placeholder="Email">
+                                <input name="email" type="text" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field ">
-                            <input type="text" placeholder="Subject">
+                            <input type="text" placeholder="Subject" required>
                         </div>
-                        <div class="field textarea ">
+                        <div class="field textarea" required>
                             <textarea name="message" cols="30" rows="10" placeholder="Message.. "></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit" name="send">Send message</button>
+                            <button id="submit" type="submit" name="send" onclick="ThankYou()">Send message</button>
                         </div>
+
                     </form>
                 </div>
             </div>
@@ -246,9 +247,9 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Michelle Fajardo</a> | <span class="far fa-copyright"></span> 2021 </span>
+        <span>Michelle Fajardo</a> | <span class="far fa-copyright "></span> 2021 </span>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js "></script>
 
 
 
