@@ -71,16 +71,5 @@ $(document).ready(function() {
         }
     });
 
-    function SendEmail() {
-        Email.send({
-            SecureToken: "a13f34f8-5b09-453e-bf81-51f73bab290d",
-            To: 'mksfajards@gmail.com',
-            From: document.getElementById("email").value,
-            Subject: "Yes? ",
-            Body: "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value
-        }).then(
-            message => alert("Message Sent!")
-        );
-    }
 
 });
