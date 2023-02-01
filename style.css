@@ -471,12 +471,12 @@ section .title::after {
     width: 50%;
 }
 
-.skills-content .right .mysql::before {
-    width: 70%;
+.skills-content .right .acs::before {
+    width: 80%;
 }
 
 .skills-content .right .java::before {
-    width: 70%;
+    width: 50%;
 }
 
 
